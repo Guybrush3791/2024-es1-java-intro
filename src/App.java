@@ -74,15 +74,14 @@ public class App {
         System.out.println("Hello " + name + " " + lastName2);
 
         // scanner interi
-        int val1 = Integer.valueOf(scanner.nextLine());
-        int val2 = Integer.valueOf(scanner.nextLine());
-        // int val2 = scanner.nextInt();
-        int sum2 = val1 + val2;
+        // int val1 = Integer.valueOf(scanner.nextLine());
+        // int val2 = Integer.valueOf(scanner.nextLine());
+        // // int val2 = scanner.nextInt();
+        // int sum2 = val1 + val2;
 
-        System.out.println("sum2: " + sum2);
+        // System.out.println("sum2: " + sum2);
 
-        scanner.close();
-        // --- esercitazioni ---
+        // --- exercises ---
         /**
          * 1. scrivere un programma che chiede all'utente di inserire due numeri e
          * stampa:
@@ -97,5 +96,33 @@ public class App {
          * 
          */
 
+        // ES 1
+        System.out.println("Enter two numbers: ");
+        int val1 = Integer.valueOf(scanner.nextLine());
+        int val2 = Integer.valueOf(scanner.nextLine());
+
+        int sum2 = val1 + val2;
+        int diff2 = val1 - val2;
+        int prod2 = val1 * val2;
+        int quot2 = val1 / val2;
+        double quot2d = (double) val1 / (double) val2;
+
+        System.out.println("sum2: " + sum2);
+        System.out.println("diff2: " + diff2);
+        System.out.println("prod2: " + prod2);
+        System.out.println("quot2: " + quot2);
+        System.out.println("quot2d: " + quot2d);
+
+        // ES 2
+        System.out.println("Enter your name: ");
+        String name2 = scanner.nextLine();
+        System.out.println("Enter your last name: ");
+        String lastName3 = scanner.nextLine();
+        String res = "Hello, " + name2 + " " + lastName3;
+
+        System.out.println(res);
+
+        // scanner
+        scanner.close();
     }
 }
