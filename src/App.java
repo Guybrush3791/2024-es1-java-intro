@@ -106,12 +106,16 @@ public class App {
         int prod2 = val1 * val2;
         int quot2 = val1 / val2;
         double quot2d = (double) val1 / (double) val2;
+        int mod2 = val1 % val2;
+        boolean isVal1DivisibleByVal2 = val1 % val2 == 0;
 
         System.out.println("sum2: " + sum2);
         System.out.println("diff2: " + diff2);
         System.out.println("prod2: " + prod2);
         System.out.println("quot2: " + quot2);
         System.out.println("quot2d: " + quot2d);
+        System.out.println("mod2: " + mod2);
+        System.out.println("isVal1DivisibleByVal2: " + isVal1DivisibleByVal2);
 
         // ES 2
         System.out.println("Enter your name: ");

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App2 {
 
     public static void main(String[] args) {
@@ -46,7 +48,34 @@ public class App2 {
         // - il secondo e' maggiore del primo
         // - sono uguali
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Inserisci due numeri: ");
+        int val1 = Integer.valueOf(scanner.nextLine());
+        int val2 = Integer.valueOf(scanner.nextLine());
+
+        if (val1 > val2) {
+            System.out.println("il primo e' maggiore del secondo");
+        } else if (val1 < val2) {
+            System.out.println("il secondo e' maggiore del primo");
+        } else {
+            System.out.println("sono uguali");
+        }
+
         // 2. richiedere un numero all'utente, moltiplicarlo per 100 e dire se e'
         // maggiore o minore di 500
+
+        System.out.println("Inserisci un numero: ");
+        int val3 = Integer.valueOf(scanner.nextLine());
+        // val3 = val3 * 100;
+        val3 *= 100;
+
+        if (val3 > 500) {
+            System.out.println(val3 + " e' maggiore di 500");
+        } else {
+            System.out.println(val3 + " e' minore o uguale a 500");
+        }
+
+        scanner.close();
     }
 }
