@@ -73,8 +73,15 @@ public class App {
         String lastName2 = scanner.nextLine();
         System.out.println("Hello " + name + " " + lastName2);
 
-        scanner.close();
+        // scanner interi
+        int val1 = Integer.valueOf(scanner.nextLine());
+        int val2 = Integer.valueOf(scanner.nextLine());
+        // int val2 = scanner.nextInt();
+        int sum2 = val1 + val2;
 
+        System.out.println("sum2: " + sum2);
+
+        scanner.close();
         // --- esercitazioni ---
         /**
          * 1. scrivere un programma che chiede all'utente di inserire due numeri e
