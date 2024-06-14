@@ -74,5 +74,21 @@ public class App {
         System.out.println("Hello " + name + " " + lastName2);
 
         scanner.close();
+
+        // --- esercitazioni ---
+        /**
+         * 1. scrivere un programma che chiede all'utente di inserire due numeri e
+         * stampa:
+         * - la somma
+         * - la differenza
+         * - il prodotto
+         * - il quoziente
+         * 
+         * 2. scrivere un programma che chiede all'utente nome e cognome e stampa:
+         * - "Hello, nome cognome"
+         * 
+         * 
+         */
+
     }
 }
