@@ -14,5 +14,16 @@ public class App4 {
          * - il numero e' positivo ma minore di 100
          * 
          */
+
+        /**
+         * 2. richiedi all'utente di inserire due numeri e stamparli in
+         * ordine decrescente (dal piu' grande al piu' piccolo)
+         */
+
+        /**
+         * 3. richiedi all'utente di inserire un numero e creare una variabile
+         * di tipo stringa che conterra' 'ok' se il numero e' positivo, 'ko' altrimenti.
+         * Stampare la stringa.
+         */
     }
 }
